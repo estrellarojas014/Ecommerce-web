@@ -1,0 +1,141 @@
+
+.td{
+    font-family: Josefin Sans;
+    background-color: #fdf3d8;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87a171;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration:none;
+    color: black;
+}
+.caja{
+    color: white;
+}
+.texto1{
+    font-size: 30px;
+}
+.carousel-inner{
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 100px;
+    text-align: center;
+}
+.padre {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: space-between
+    }
+    .div0{
+    grid-area: 2 / 1 / 3 / 2; 
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+    }
+    .div1 { 
+    grid-area: 2 / 2 / 3 / 3; 
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+}
+    .div2 {
+    grid-area: 2 / 3 / 3 / 4;
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+}
+    .div3 { 
+    grid-area: 2 / 4 / 3 / 5; 
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+}
+    .div4 { 
+    grid-area: 3 / 2 / 4 / 3;
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white; 
+    margin: 10px;
+}
+    .div5 {
+    grid-area: 3 / 3 / 4 / 4; 
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+}
+    .div6 { 
+    grid-area: 3 / 4 / 4 / 5;
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+}
+    .div7 {
+    grid-area: 4 / 2 / 5 / 3;
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+ }
+    .div8 {
+    grid-area: 4 / 3 / 5 / 4; 
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+}
+    .div9 { 
+    grid-area: 4 / 4 / 5 / 5; 
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+}
+    .div10 { 
+    grid-area: 5 / 2 / 6 / 3; 
+    border: 2px solid rgb(229, 205, 151);
+    background-color: white;
+    margin: 10px;
+}
+.producto{
+    font-size: 25px;
+}
+.precio{
+    font-size: 20px;
+}
+.info{
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87a171;
+    padding: 20px;
+}
+@media (max-width: 574px) {
+    .padre{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    }
+
+
